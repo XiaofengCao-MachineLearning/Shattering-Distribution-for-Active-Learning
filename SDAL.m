@@ -68,8 +68,6 @@ Center=Cen;
  hold on
  plot(Center(:,1),Center(:,2),'rs')
  hold on
-plot(Cen(:,1),Cen(:,2),'g*')
-hold on
 for j=1:1:k
     viscircles(Center(j,:),Radi)
 end
